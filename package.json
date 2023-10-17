@@ -1,0 +1,32 @@
+{
+  "name": "talking-friends",
+  "version": "1.0.0",
+  "description": "a chatting app using socket IO, also a backend of that project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "fswd",
+    "node",
+    "mongodb",
+    "mongoose",
+    "sha",
+    "bcrypt",
+    "socketIO",
+    "authentication",
+    "authorization",
+    "JWT"
+  ],
+  "author": "Faisal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4"
+  }
+}
